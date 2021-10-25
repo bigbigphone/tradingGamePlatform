@@ -32,6 +32,7 @@ const GameList = ({filter}) => {
     const SearchHandler=()=>{
       setSearch(inputEl.current.value)
       console.log(inputEl.current.value)
+      console.log("onChange")
       GiveResult()
 
     };
