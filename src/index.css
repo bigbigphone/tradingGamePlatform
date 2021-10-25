@@ -120,7 +120,7 @@ nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
-.nav-logo {
+.nav-logo h1 {
   font-size: 1rem;
 }
 .nav-header {
@@ -149,7 +149,7 @@ nav {
   .nav-toggle {
     display: none;
   }
-  .nav-logo {
+  .nav-logo h1 {
     font-size: 2rem;
   }
 }
