@@ -12,7 +12,7 @@ const GameList = ({filter}) => {
     useEffect(() => {
       const fetchGameList = async (type) => {
         try {
-          const response = await fetch(config.apiGameList)
+          const response = await fetch(config.apiGameList_for_develop)
           const games = await response.json()
           if (filter!== undefined){
             const newgames = games.filter((game) => game.type === type)
@@ -29,9 +29,9 @@ const GameList = ({filter}) => {
       fetchGameList(filter)
     }, [filter])
 
-    const SearchHandler=(event)=>{
-      setSearch(event.target.value)
-      GiveResult(event.target.value)
+    const SearchHandler=(value)=>{
+      setSearch(value)
+      GiveResult(value)
     };
 
     const GiveResult=(value)=>{
@@ -55,7 +55,7 @@ const GameList = ({filter}) => {
           <div className="section-center">
               <div className="search">
                 <i><BiSearch/></i>
-                <input ref={inputEl} type="text" placeholder="Search Games" value={search} onChange={SearchHandler} ></input>
+                <input ref={inputEl} type="text" placeholder="Search Gamess" value={search} onChange={(e) => SearchHandler(e.target.value)} ></input>
                 
               </div>
               {gameList.map((gameitem) => {
