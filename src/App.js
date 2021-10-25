@@ -18,13 +18,13 @@ function App() {
         <Route exact path="/tradingGamePlatform">
           <Home />
         </Route>
-        <Route path="/console/:filter">
+        <Route path="/tradingGamePlatform/console/:filter">
           <Console />
         </Route>
-        <Route exact path="/add">
+        <Route exact path="/tradingGamePlatform/add">
           <AddGame/>
         </Route>
-        <Route path="/game/:id">
+        <Route path="/tradingGamePlatform/game/:id">
           <Game />
         </Route>
         
