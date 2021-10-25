@@ -29,22 +29,19 @@ const GameList = ({filter}) => {
       fetchGameList(filter)
     }, [filter])
 
-    const SearchHandler=()=>{
-      setSearch(inputEl.current.value)
-      console.log(inputEl.current.value)
-      console.log("onChange")
-      GiveResult()
-
+    const SearchHandler=(event)=>{
+      setSearch(event.target.value)
+      GiveResult(event.target.value)
     };
 
-    const GiveResult=()=>{
+    const GiveResult=(value)=>{
       
-      if (inputEl.current.value!==""){
+      if (value!==""){
         const newGameList = oldgameList.filter((game)=>{
           return Object.values(game.title)
             .join("")
             .toLowerCase()
-            .includes(inputEl.current.value.toLowerCase());
+            .includes(value.toLowerCase());
         })
         setgameList(newGameList)
         
