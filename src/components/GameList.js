@@ -30,7 +30,6 @@ const GameList = ({filter}) => {
     }, [filter])
 
     const SearchHandler=(value)=>{
-      console.log('check point 1 : see handler is triggered or not')
       setSearch(value)
       GiveResult(value)
     };
@@ -57,7 +56,6 @@ const GameList = ({filter}) => {
               <div className="search">
                 <i><BiSearch/></i>
                 <input ref={inputEl} type="text" placeholder="Search Gamess" value={search} onChange={(e) => SearchHandler(e.target.value)} ></input>
-                <button onClick={()=>alert('hello')}>say something</button>
               </div>
               {gameList.map((gameitem) => {
                   return(
