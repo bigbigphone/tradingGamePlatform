@@ -14,6 +14,7 @@ const GameList = ({filter}) => {
         try {
           const response = await fetch(config.apiGameList)
           const games = await response.json()
+          console.log("Fuck me")
           if (filter!== undefined){
             const newgames = games.filter((game) => game.type === type)
             setgameList(newgames)
