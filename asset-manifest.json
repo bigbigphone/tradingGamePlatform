@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tradingGamePlatform/static/css/main.5f81625f.chunk.css",
-    "main.js": "/tradingGamePlatform/static/js/main.962c9d56.chunk.js",
-    "main.js.map": "/tradingGamePlatform/static/js/main.962c9d56.chunk.js.map",
+    "main.js": "/tradingGamePlatform/static/js/main.ba355988.chunk.js",
+    "main.js.map": "/tradingGamePlatform/static/js/main.ba355988.chunk.js.map",
     "runtime-main.js": "/tradingGamePlatform/static/js/runtime-main.d15d655f.js",
     "runtime-main.js.map": "/tradingGamePlatform/static/js/runtime-main.d15d655f.js.map",
-    "static/js/2.f524d1a8.chunk.js": "/tradingGamePlatform/static/js/2.f524d1a8.chunk.js",
-    "static/js/2.f524d1a8.chunk.js.map": "/tradingGamePlatform/static/js/2.f524d1a8.chunk.js.map",
+    "static/js/2.e509a0e7.chunk.js": "/tradingGamePlatform/static/js/2.e509a0e7.chunk.js",
+    "static/js/2.e509a0e7.chunk.js.map": "/tradingGamePlatform/static/js/2.e509a0e7.chunk.js.map",
     "index.html": "/tradingGamePlatform/index.html",
     "static/css/main.5f81625f.chunk.css.map": "/tradingGamePlatform/static/css/main.5f81625f.chunk.css.map",
-    "static/js/2.f524d1a8.chunk.js.LICENSE.txt": "/tradingGamePlatform/static/js/2.f524d1a8.chunk.js.LICENSE.txt"
+    "static/js/2.e509a0e7.chunk.js.LICENSE.txt": "/tradingGamePlatform/static/js/2.e509a0e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d15d655f.js",
-    "static/js/2.f524d1a8.chunk.js",
+    "static/js/2.e509a0e7.chunk.js",
     "static/css/main.5f81625f.chunk.css",
-    "static/js/main.962c9d56.chunk.js"
+    "static/js/main.ba355988.chunk.js"
   ]
 }
