@@ -7,22 +7,22 @@ export const links = [
         },
     {
         id: 2,
-        url: '/console/ps',
+        url: '/tradingGamePlatform/console/ps',
         text: 'PS',
     },
     {
         id: 3,
-        url: '/console/xbox',
+        url: '/tradingGamePlatform/console/xbox',
         text: 'Xbox',
     },
     {
         id: 4,
-        url: '/console/ns',
+        url: '/tradingGamePlatform/console/ns',
         text: 'Nintendo',
     },
     {
         id: 5,
-        url: '/add',
+        url: '/tradingGamePlatform/add',
         text: 'Add New Games',
     },
 
