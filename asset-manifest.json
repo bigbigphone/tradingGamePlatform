@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bigbigphone/tradingGamePlatform.git/static/css/main.5f81625f.chunk.css",
-    "main.js": "/bigbigphone/tradingGamePlatform.git/static/js/main.9bd0d580.chunk.js",
-    "main.js.map": "/bigbigphone/tradingGamePlatform.git/static/js/main.9bd0d580.chunk.js.map",
-    "runtime-main.js": "/bigbigphone/tradingGamePlatform.git/static/js/runtime-main.4f511284.js",
-    "runtime-main.js.map": "/bigbigphone/tradingGamePlatform.git/static/js/runtime-main.4f511284.js.map",
-    "static/js/2.4023fb8a.chunk.js": "/bigbigphone/tradingGamePlatform.git/static/js/2.4023fb8a.chunk.js",
-    "static/js/2.4023fb8a.chunk.js.map": "/bigbigphone/tradingGamePlatform.git/static/js/2.4023fb8a.chunk.js.map",
-    "index.html": "/bigbigphone/tradingGamePlatform.git/index.html",
-    "static/css/main.5f81625f.chunk.css.map": "/bigbigphone/tradingGamePlatform.git/static/css/main.5f81625f.chunk.css.map",
-    "static/js/2.4023fb8a.chunk.js.LICENSE.txt": "/bigbigphone/tradingGamePlatform.git/static/js/2.4023fb8a.chunk.js.LICENSE.txt"
+    "main.css": "/tradingGamePlatform/static/css/main.5f81625f.chunk.css",
+    "main.js": "/tradingGamePlatform/static/js/main.c8dc68c2.chunk.js",
+    "main.js.map": "/tradingGamePlatform/static/js/main.c8dc68c2.chunk.js.map",
+    "runtime-main.js": "/tradingGamePlatform/static/js/runtime-main.d15d655f.js",
+    "runtime-main.js.map": "/tradingGamePlatform/static/js/runtime-main.d15d655f.js.map",
+    "static/js/2.4023fb8a.chunk.js": "/tradingGamePlatform/static/js/2.4023fb8a.chunk.js",
+    "static/js/2.4023fb8a.chunk.js.map": "/tradingGamePlatform/static/js/2.4023fb8a.chunk.js.map",
+    "index.html": "/tradingGamePlatform/index.html",
+    "static/css/main.5f81625f.chunk.css.map": "/tradingGamePlatform/static/css/main.5f81625f.chunk.css.map",
+    "static/js/2.4023fb8a.chunk.js.LICENSE.txt": "/tradingGamePlatform/static/js/2.4023fb8a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f511284.js",
+    "static/js/runtime-main.d15d655f.js",
     "static/js/2.4023fb8a.chunk.js",
     "static/css/main.5f81625f.chunk.css",
-    "static/js/main.9bd0d580.chunk.js"
+    "static/js/main.c8dc68c2.chunk.js"
   ]
 }
