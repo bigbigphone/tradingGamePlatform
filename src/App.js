@@ -15,16 +15,16 @@ function App() {
       <Navbar/>
       
       <Switch>
-        <Route exact path="/tradingGamePlatform">
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/tradingGamePlatform/console/:filter">
+        <Route path="/console/:filter">
           <Console />
         </Route>
-        <Route exact path="/tradingGamePlatform/add">
+        <Route exact path="/add">
           <AddGame/>
         </Route>
-        <Route path="/tradingGamePlatform/game/:id">
+        <Route path="/game/:id">
           <Game />
         </Route>
         

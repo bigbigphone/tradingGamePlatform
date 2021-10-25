@@ -37,7 +37,7 @@ export default function AddGame() {
     return (
       <main className="add_main">
             <div className="Game_Page">
-              <Link to='/tradingGamePlatform' className="back"><IoIosArrowBack/></Link>
+              <Link to='/' className="back"><IoIosArrowBack/></Link>
               <form onSubmit={handleSubmit} className="add_main_form_part">
                 <h2>Create a Game Post</h2>
                 <div className="add_main_content_part">
