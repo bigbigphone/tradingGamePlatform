@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 const SingleGame = ({_id, price, place ,title,type}) => {
     return (
-        <Link to={`/game/${_id}`} >
+        <Link to={`/tradingGamePlatform/game/${_id}`} >
             <div className="singleGame">
                 {type==="xbox" && <h3 className="xbox">{title}</h3>}
                 {type==="ps" && <h3 className="ps">{title}</h3>}
