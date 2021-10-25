@@ -30,6 +30,7 @@ const GameList = ({filter}) => {
     }, [filter])
 
     const SearchHandler=(value)=>{
+      console.log('check point 1 : see handler is triggered or not')
       setSearch(value)
       GiveResult(value)
     };
