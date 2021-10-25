@@ -121,7 +121,7 @@ nav {
   box-shadow: var(--light-shadow);
 }
 .nav-logo {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .nav-header {
   display: flex;

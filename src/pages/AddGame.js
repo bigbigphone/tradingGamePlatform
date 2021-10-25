@@ -16,6 +16,7 @@ export default function AddGame() {
     const [problemDetail,setProblemDetail] = useState('');
 
     const handleSubmit = (e) =>{
+      console.log("submitting")
       e.preventDefault();
       const data ={name, title, price, place, contact, type, description};
       const options = {
