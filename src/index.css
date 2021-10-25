@@ -120,6 +120,9 @@ nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
+.nav-logo {
+  font-size: 1.5rem;
+}
 .nav-header {
   display: flex;
   align-items: center;
@@ -143,11 +146,11 @@ nav {
 }
 
 @media only screen and (min-width: 950px) {
-  .nav-logo {
-    font-size: 1.5rem;
-  }
   .nav-toggle {
     display: none;
+  }
+  .nav-logo {
+    font-size: 2rem;
   }
 }
 .nav-toggle:hover {
