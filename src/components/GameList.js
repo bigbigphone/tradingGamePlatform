@@ -14,7 +14,6 @@ const GameList = ({filter}) => {
         try {
           const response = await fetch(config.apiGameList)
           const games = await response.json()
-          console.log("Fuck me")
           if (filter!== undefined){
             const newgames = games.filter((game) => game.type === type)
             setgameList(newgames)
@@ -32,7 +31,7 @@ const GameList = ({filter}) => {
 
     const SearchHandler=()=>{
       setSearch(inputEl.current.value)
-      console.log("Fuck you")
+      console.log(inputEl.current.value)
       GiveResult()
 
     };
