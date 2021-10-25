@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tradingGamePlatform/static/css/main.414b3b8a.chunk.css",
-    "main.js": "/tradingGamePlatform/static/js/main.be783a61.chunk.js",
-    "main.js.map": "/tradingGamePlatform/static/js/main.be783a61.chunk.js.map",
+    "main.js": "/tradingGamePlatform/static/js/main.aa1d6882.chunk.js",
+    "main.js.map": "/tradingGamePlatform/static/js/main.aa1d6882.chunk.js.map",
     "runtime-main.js": "/tradingGamePlatform/static/js/runtime-main.e7f36fea.js",
     "runtime-main.js.map": "/tradingGamePlatform/static/js/runtime-main.e7f36fea.js.map",
     "static/js/2.e509a0e7.chunk.js": "/tradingGamePlatform/static/js/2.e509a0e7.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e7f36fea.js",
     "static/js/2.e509a0e7.chunk.js",
     "static/css/main.414b3b8a.chunk.css",
-    "static/js/main.be783a61.chunk.js"
+    "static/js/main.aa1d6882.chunk.js"
   ]
 }
