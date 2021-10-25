@@ -19,7 +19,7 @@ export default function AddGame() {
       e.preventDefault();
       const data ={name, title, price, place, contact, type, description};
       const options = {
-        url: config.apiGameList,
+        url: 'https://gametradingplatform.herokuapp.com/api/products',
         method: 'POST',
         headers: {
           'Accept': 'application/json',
