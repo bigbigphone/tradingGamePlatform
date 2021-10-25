@@ -2,6 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { IoIosArrowBack } from "react-icons/io";
 import {  Link } from 'react-router-dom'
+import config from "../config/default.json"
 export default function AddGame() {
     const [name,setName] = useState('');
     const [title,setTitle] = useState('');
@@ -17,7 +18,7 @@ export default function AddGame() {
       e.preventDefault();
       const data ={name, title, price, place, contact, type, description};
       const options = {
-        url: 'http://127.0.0.1:4000/api/products',
+        url: config.apiGame,
         method: 'POST',
         headers: {
           'Accept': 'application/json',
