@@ -12,7 +12,7 @@ const GameList = ({filter}) => {
     useEffect(() => {
       const fetchGameList = async (type) => {
         try {
-          const response = await fetch(config.apiGameList_for_develop)
+          const response = await fetch(config.apiGameList)
           const games = await response.json()
           if (filter!== undefined){
             const newgames = games.filter((game) => game.type === type)
