@@ -1,0 +1,6 @@
+{
+    "apiGame_for_develop": "http://127.0.0.1:4000/api/products/",
+    "apiGameList_for_develop": "http://127.0.0.1:4000/api/products",
+    "apiGame":"https://gametradingplatform.herokuapp.com/api/products/",
+    "apiGameList": "https://gametradingplatform.herokuapp.com/api/products"
+}
