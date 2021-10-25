@@ -31,6 +31,7 @@ const GameList = ({filter}) => {
 
     const SearchHandler=()=>{
       setSearch(inputEl.current.value)
+      console.log("Fuck you")
       GiveResult()
 
     };
