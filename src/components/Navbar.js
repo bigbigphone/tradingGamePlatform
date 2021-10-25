@@ -25,7 +25,7 @@ function NavBar() {
       <nav className='navbar'>
         <div className='nav-center'>
           <div className='nav-header'> 
-            <Link to='/'>
+            <Link to='/tradingGamePlatform'>
                 <div className='nav-logo'>
                     <h1>🎮Trade Game Here</h1>
                 </div>

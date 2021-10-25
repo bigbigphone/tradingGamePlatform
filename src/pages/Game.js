@@ -44,7 +44,7 @@ export default function Product() {
         const {name, title, price, place, contact, description, date} = game;
         return (
             <main className="Game_Page">
-                <Link to='/' className="back"><IoIosArrowBack/></Link>
+                <Link to='/tradingGamePlatform' className="back"><IoIosArrowBack/></Link>
                 <div className="game_canvas">
                     
                     <div >

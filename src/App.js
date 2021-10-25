@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/tradingGamePlatform">
           <Home />
         </Route>
         <Route path="/console/:filter">
